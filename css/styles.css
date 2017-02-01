@@ -1,0 +1,11 @@
+body { 
+	padding-top: 70px; 
+}
+
+.thumbnail {
+	border-color: #000;
+}
+
+.selected {
+	border-width: 2px;
+}

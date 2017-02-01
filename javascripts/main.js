@@ -1,6 +1,14 @@
 function populatePage (inventory) {
   // Loop over the inventory and populate the page
 
+
+
+
+
+
+
+
+
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents();
 }
