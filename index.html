@@ -2,18 +2,12 @@
 <html>
 <head>
 	<title>Car Challenge</title>
-		<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous"></script>
-		<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="/dist/css/bootstrap.min.css">
+
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -24,34 +18,25 @@
 	    
 	      <form class="navbar-form navbar-right">
 	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
+	          <input type="text" class="form-control" id="car-input" placeholder="Change Description">
 	        </div>
-	        <button type="button" class="btn btn-default">Submit</button>
 	      </form>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row" id="card-display">
 			
 		</div>
 	</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	<script type="text/javascript" src="/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="javascripts/CarLot.js"></script>
+	<script type="text/javascript" src="javascripts/class.js"></script>
+	<script type="text/javascript" src="/javascripts/carEvents.js"></script>
 	<script type="text/javascript" src="javascripts/main.js"></script>
 </body>
 </html>
