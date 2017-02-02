@@ -8,7 +8,11 @@ article {
 	height: 12em;
 }
 
-.selected {
+.green {
 	border-width: 3px;
 	background-color: lightgreen;
+}
+
+h1 {
+	margin: 1em;
 }

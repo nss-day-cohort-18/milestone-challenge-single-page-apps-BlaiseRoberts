@@ -32,7 +32,7 @@ input.onkeypress=function(e){
         e.preventDefault();
         //removes classes to save edits to card
         for (var i = 0; i < articles.length; i++) {
-		articles[i].classList.remove("selected");
+		articles[i].classList.remove("green");
 	}
         input.value = "";
     }

@@ -5,19 +5,19 @@ var CarLot = (function(originalCarLot){
 
 	originalCarLot.handleClasses = function(event){
 			removeClasses();
-			addClassSelected();
+			addClassSelected("green");
 			inputSelect();
 			textMirror(event.currentTarget);
 	};
 	function removeClasses(){
 		//Loop and remove classes
 		for (var i = 0; i < articles.length; i++) {
-			articles.item(i).classList.remove("selected");
+			articles.item(i).classList.remove("green");
 		}
 	}
-	function addClassSelected(){
+	function addClassSelected(green){
 		//added class to event.target
-		event.currentTarget.classList.add("selected");
+		event.currentTarget.classList.add(green);
 	}
 	function inputSelect(){
 		input.value = "";
@@ -26,7 +26,7 @@ var CarLot = (function(originalCarLot){
 	function textMirror (articles) {
 		input.addEventListener("keyup", function (event) {
 			var inputText = input.value;
-			if (articles.classList.contains("selected")) {
+			if (articles.classList.contains("green")) {
 				articles.childNodes[1].innerHTML = inputText;
 			}
 		});
