@@ -16,3 +16,7 @@ article {
 h1 {
 	margin: 1em;
 }
+
+.navbar-brand {
+	text-align: center;
+}

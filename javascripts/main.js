@@ -5,12 +5,21 @@ var cardDisplay = document.getElementById("card-display");
 var articles = document.getElementsByClassName("thumbnail");
 var input = document.getElementById("car-input");
 
+//Tooltip Initialize
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+
+
+
 function populatePage (inventory) {
   // Loop over the inventory and populate the page
   for(var k in inventory) {
 		var carCard = ``;
 		var carObject = inventory[k];
-		carCard += `<article class="col-sm-4"><div class="thumbnail"><h4 class="text-primary">${carObject.make} - ${carObject.model}</h4><p class="text-justify">${carObject.description}</p><footer class="text-right text-danger">${carObject.year} for $${carObject.price}</footer></div></article>`;
+		carCard += `<article class="col-sm-4"><div class="thumbnail" data-toggle="tooltip" title="Click to change description"><h4 class="text-primary">${carObject.make} - ${carObject.model}</h4><p class="text-justify">${carObject.description}</p><footer class="text-right text-danger">${carObject.year} for $${carObject.price}</footer></div></article>`;
 		cardDisplay.innerHTML += carCard;
   }
 

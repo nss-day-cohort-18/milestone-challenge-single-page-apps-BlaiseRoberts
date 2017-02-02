@@ -20,7 +20,7 @@ var CarLot = (function(originalCarLot){
 		event.currentTarget.classList.add(green);
 	}
 	function inputSelect(){
-		input.value = "";
+		input.value = event.currentTarget.childNodes[1].innerHTML;
 		input.focus();
 	}
 	function textMirror (articles) {
