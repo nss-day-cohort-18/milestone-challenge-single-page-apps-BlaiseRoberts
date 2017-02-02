@@ -4,36 +4,36 @@
       "make": "Nissan",
       "model": "Rogue",
       "year": "2006",
-      "price": "8999",
+      "price": "8,999",
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    }, 
+    {
+      "make": "Hyundai",
+      "model": "Accent",
+      "year": "2015",
+      "price": "22,799",
+      "description": "This is the coolest car you've ever seen, and in BLUE!"
     },
     {
-      "make": "Nissn",
-      "model": "Roge",
-      "year": "2005",
-      "price": "799",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2010",
+      "price": "15,899",
+      "description": "You will see this trunk EVERYWHERE.  Tons and tons and tons and tons and tons and tons and tons and tons and tons and tons of people have them and love them."
     },
     {
-      "make": "Nsan",
-      "model": "Roue",
-      "year": "2004",
-      "price": "899",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": "2013",
+      "price": "19,999",
+      "description": "Get blasted in this car, it has sensitive air bags."
     },
     {
-      "make": "ssan",
-      "model": "Rogu",
-      "year": "2003",
-      "price": "99",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
-    },
-    {
-      "make": "Niss",
-      "model": "gue",
-      "year": "2002",
-      "price": "89",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "Mitsubishi",
+      "model": "Gallant",
+      "year": "2016",
+      "price": "26,599",
+      "description": "That's to be expected. We are going to make placeholder text great again. Greater than ever before."
     }
   ]
 }
