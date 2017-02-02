@@ -1,4 +1,24 @@
 # Single Page Applications Milestone Challenge
+## To View Page
+
+1. This page was created with the Grunt task manager that you will need to run before you can view this page.
+1. You will need to go into the lib folder in your terminal and run the command:
+```
+npm install
+```
+1. This should add a node_modules folder to your page.
+1. You will then need to run grunt with the command:
+```
+grunt
+```
+1. Now, open a new tab in your terminal, back out of your lib folder, and run your http-server.
+
+
+### You're good to go!
+
+
+
+
 
 ## Setup
 
